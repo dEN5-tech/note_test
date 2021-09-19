@@ -21,7 +21,7 @@ source.include_patterns = assets/*
 # (str) Application versioning (method 2)
 version.regex = __version__ = ['"](.*)['"]
 
-version.filename = %(source.dir)s/../../kivymd/__init__.py
+# version.filename = blocknote 0.1
 
 android.numeric_version = 1
 
@@ -34,11 +34,6 @@ requirements = python3,kivy==2.0.0,https://github.com/kivymd/KivyMD/archive/mast
 # Sets custom source for any requirements with recipes
 requirements.source.kivymd = ../../kivymd
 
-# (str) Presplash of the application
-presplash.filename = %(source.dir)s/assets/presplash.png
-
-# (str) Icon of the application
-icon.filename = %(source.dir)s/assets/kivymd.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
