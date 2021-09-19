@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Lottie Demo
+title = BLOCKnote
 
 # (str) Package name
-package.name = lottiedemo
+package.name = blocknote
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = dev.tshirtman
+package.domain = dev.dEN5
 
 # (str) Source code where the main.py live
 source.dir = src/
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy,kivymd
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
