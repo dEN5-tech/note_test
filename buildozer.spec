@@ -16,10 +16,10 @@ source.dir = src/
 source.include_exts = py,png,jpg,jpeg,ttf,kv,json,txt
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = assets/*
-
+# source.include_patterns = assets/*
+version = 0.1
 # (str) Application versioning (method 2)
-version.regex = __version__ = ['"](.*)['"]
+# version.regex = __version__ = ['"](.*)['"]
 
 # version.filename = blocknote 0.1
 
