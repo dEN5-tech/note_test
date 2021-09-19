@@ -56,7 +56,6 @@ from kivy.uix.image import Image
 import io
 
 
-
 class blur_image(EffectWidget, AsyncImage):
     effects = (HorizontalBlurEffect(size=2.0))
 
