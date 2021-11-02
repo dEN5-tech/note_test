@@ -1,4 +1,6 @@
 # -*- coding: utf8 -*-
+import logging
+logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
 
 from kivy.uix.button import Button
 import asynckivy as ak
