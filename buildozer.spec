@@ -13,7 +13,7 @@ package.domain = dev.dEN5
 source.dir = src/
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,jpeg,ttf,kv,json,txt
+source.include_exts = py,png,jpg,jpeg,ttf,md,kv,json
 
 # (list) List of inclusions using pattern matching
 # source.include_patterns = assets/*
@@ -28,7 +28,7 @@ android.numeric_version = 1
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 
-requirements = android==1.0, astroid==2.8.0, asyncgui==0.5.2, asyncio==3.4.3, asynckivy==0.5.2, audiostream==0.2, beautifulsoup4==4.10.0, bs4==0.0.1, certifi==2021.10.8, cffi==1.15.0, charset-normalizer==2.0.7, distro==1.6.0, docutils==0.18, idna==3.3, install==1.3.4, isort==5.9.3, jedi==0.18.0, Kivy==2.0.0, https://github.com/kivymd/KivyMD/archive/master.zip, lazy-object-proxy==1.6.0, lxml==4.6.3, mccabe==0.6.1, packaging==21.0, parso==0.8.2, Pillow==8.4.0, pkgconfig==1.5.5, platformdirs==2.4.0, pybind11==2.8.0, pycparser==2.20, pygame==2.0.1, Pygments==2.10.0, pyjnius==1.3.0, pylint==2.11.1, pyparsing==2.4.7, PySDL2==0.9.7, requests==2.26.0, scikit-build==0.12.0, six==1.16.0, soupsieve==2.2.1, toml==0.10.2, typed-ast==1.4.3, typing-extensions==3.10.0.2, urllib3==1.26.7, wrapt==1.13.1
+requirements = python3,kivy,https://github.com/kivymd/KivyMD/archive/master.zip,sdl2_ttf==2.0.15
 requirements.source.kivymd = ../../kivymd
 
 
