@@ -1,7 +1,9 @@
 # -*- coding: utf8 -*-
 import logging
 logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
-
+import certifi
+import os
+os.environ.setdefault('SSL_CERT_FILE', certifi.where())
 from kivy.uix.button import Button
 import asynckivy as ak
 import asyncio
