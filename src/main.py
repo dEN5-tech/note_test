@@ -4,6 +4,8 @@ logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
 import certifi
 import os
 os.environ.setdefault('SSL_CERT_FILE', certifi.where())
+from android.permissions import request_permissions, Permission
+request_permissions([Permission.WRITE_EXTERNAL_STORAGE])
 from kivy.uix.button import Button
 import asynckivy as ak
 import asyncio
