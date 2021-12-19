@@ -28,7 +28,7 @@ android.numeric_version = 1
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 
-requirements = python3,kivy,https://github.com/kivymd/KivyMD/archive/master.zip,sdl2_ttf==2.0.15,android.permissions,asynckivy,asyncgui,Pillow,requests,urllib3, certifi, openssl, android,charset-normalizer,idna
+requirements = python3,kivy,https://github.com/kivymd/KivyMD/archive/master.zip,sdl2_ttf==2.0.15,android.permissions,asynckivy,asyncgui,Pillow,requests,urllib3, certifi, openssl, android,charset-normalizer,idna,beautifulsoup4
 requirements.source.kivymd = ../../kivymd
 
 
